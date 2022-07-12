@@ -1,0 +1,2424 @@
+* HOMEPAGE
+index.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ipt Final Project</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                    <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg" alt="Image">
+                    <h1 class="font-weight-bold">Clint Vincent Taghap</h1>
+                    <p class="mb-4">
+                        Bsit2e
+                    </p>
+                    <div class="d-flex justify-content-center mb-5">
+          
+                        <a class="btn btn-outline-primary mr-2" href="https://www.facebook.com/ClintVincent.Taghap.01/"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                    <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+                </div>
+            </div>
+            <div class="content">
+                <!-- Navbar Start -->
+                <div class="container p-0">
+                    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                        <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav m-auto">
+                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <a href="about.html" class="nav-item nav-link">About</a>
+                                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- Navbar End -->
+                
+                <!-- Carousel Start -->
+                <div class="container p-0">
+                    <div id="blog-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="w-100" src="img/carousel-1.png" alt="Image">
+                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="mb-3 text-white font-weight-bold">Act 1</h2>
+                                    <a href="Act 1.mp4" class="btn btn-lg btn-outline-light mt-4">Play</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="img/carousel-2.png" alt="Image">
+                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="text-white font-weight-bold">Act 2</h2>
+                                    <a href="2nd activity/Untitled-1.html" class="btn btn-lg btn-outline-light mt-4">Read More</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="img/carousel-3.png" alt="Image">
+                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="text-white font-weight-bold">Act 3</h2>
+                                    <a href="3rd activity/Untitled-1.html" class="btn btn-lg btn-outline-light mt-4">Read More</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="img/carousel-4.png" alt="Image">
+                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="text-white font-weight-bold">Act 4</h2>
+                                    <a href="4th activity/Untitled-1.html" class="btn btn-lg btn-outline-light mt-4">Read More</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="img/carousel-5.png" alt="Image">
+                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                    <h2 class="text-white font-weight-bold">Act 5</h2>
+                                    <a href="5th activity/Untitled-1.html" class="btn btn-lg btn-outline-light mt-4">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Carousel End -->
+                
+                
+                <!-- Blog List Start -->
+                <div class="container bg-white pt-5">
+                    <div class="row blog-item px-3 pb-5">
+                        <div class="col-md-5">
+                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-1.png" alt="Image">
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Activity 1</h3>
+                            <div class="d-flex mb-3">
+                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 30-Mar-2022</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Ipt</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> Sir Jonas</small>
+                            </div>
+                            <p>
+                                In this video, it shows an introduction about myself.
+                            </p>
+                            <a class="btn btn-link p-0" href="Act 1.mp4">Play <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row blog-item px-3 pb-5">
+                        <div class="col-md-5">
+                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-2.png" alt="Image">
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Activity 2</h3>
+                            <div class="d-flex mb-3">
+                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 06-Apr-2022</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Ipt</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> Sir Jonas</small>
+                            </div>
+                            <p>
+                                This is my Activity 2 , it shows my 5 favorite site that i usually using. the link of my favorite sites is on the table.
+                            </p>
+                            <a class="btn btn-link p-0" href="2nd activity/Untitled-1.html">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row blog-item px-3 pb-5">
+                        <div class="col-md-5">
+                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-3.png" alt="Image">
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Activity 3</h3>
+                            <div class="d-flex mb-3">
+                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 20-Apr-2022</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Ipt</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> Sir Jonas</small>
+                            </div>
+                            <p>
+                                This is my Activity 3 , it shows my 5 favorite site that i usually using. it shows the logo of my favorite sites. just click the logo to go on the sites. 
+                            </p>
+                            <a class="btn btn-link p-0" href="3rd activity/Untitled-1.html">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog List End -->
+                <!-- Blog List Start -->
+                <div class="container bg-white pt-5">
+                    <div class="row blog-item px-3 pb-5">
+                        <div class="col-md-5">
+                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-4.png" alt="Image">
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Activity 4</h3>
+                            <div class="d-flex mb-3">
+                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 07-May-2022</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Ipt</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> Sir Jonas</small>
+                            </div>
+                            <p>
+                               this is my 4th activity, In this activity, it shows my personal information and my favorites sites.
+                            </p>
+                            <a class="btn btn-link p-0" href="4th activity/Untitled-1.html">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="row blog-item px-3 pb-5">
+                        <div class="col-md-5">
+                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-5.png" alt="Image">
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Activity 5</h3>
+                            <div class="d-flex mb-3">
+                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 18-May-2022</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Ipt</small>
+                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> Sir Jonas</small>
+                            </div>
+                            <p>
+                                This is my 5th activity, it has same with activity 4 but it has additional informarion about my family.
+                            </p>
+                            <a class="btn btn-link p-0" href="5th activity/Untitled-1.html">Read More <i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog List End -->
+                
+                
+                <!-- Footer Start -->
+                <div class="container py-4 bg-secondary text-center">
+                    <p class="m-0 text-white">
+                        &copy; <a class="text-white font-weight-bold" >Ipt Final Project</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold">Clint Vincent Taghap</a>
+                    </p>
+                </div>
+                <!-- Footer End -->
+            </div>
+        </div>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+
+* ABOUTPAGE
+About.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ipt Final Project</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg" alt="Image">
+                <h1 class="font-weight-bold">Clint Vincent Taghap</h1>
+                <p class="mb-4">
+                   Bsit2e
+                </p>
+                <div class="d-flex justify-content-center mb-5">
+                    <a class="btn btn-outline-primary mr-2" href="https://www.facebook.com/ClintVincent.Taghap.01/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+            </div>
+        </div>
+        <div class="content">
+            <!-- Navbar Start -->
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                    <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link active">About</a>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Navbar End -->
+
+            <!-- Page Header Start -->
+            <div class="container py-5 px-2 bg-primary">
+                <div class="row py-5 px-4">
+                    <div class="col-sm-6 text-center text-md-left">
+                        <h1 class="mb-3 mb-md-0 text-white text-uppercase font-weight-bold">About Me</h1>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Page Header End -->
+
+
+            <!-- About Start -->
+            <div class="container bg-white pt-5">
+                <div class="row px-3 pb-5">
+                    <div class="col-md-12">
+                        <h2 class="mb-4 font-weight-bold">Clint Vincent Olimpian Taghap</h2>
+                        <img class="img-fluid float-left w-50 mr-4 mb-3" src="img/about.jpg" alt="Image">
+                        <p class="m-0">
+                            My Name is Clint Vincent Olimpiuan Taghap, 20 years old, born from carmen bohol, Im currently living on Blk 21 lot 3
+Southville 8c San Isidro rodriguez rizal. my birthday is Nov 30, 2001 and its holiday which is bonifacio day. and
+now i am 2nd year at colegio de montalban on rodriguez rizal. I like playing instruments like Gutiar, ukelele, piano, etc.
+I always watching anime and my favorite anime is That Time I Got Reincarnated as a Slime because its awsome.
+i also watch a movie like a hollywood movie because it wasamazing like avendegers infinity war of end game,aside from that,
+i always playing instruments and sometime i make a music cover then upload mon my social accounts. i also like programming,
+when i am bored, i go to computer and create an website or programs.
+
+                        </p>
+                    </div>
+                    <div class="col-md-12 pt-4">
+                        <div class="d-flex flex-column skills">
+                            <div class="progress w-100 mb-4">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Academic Study</div>
+                            </div>
+                            <div class="progress w-100 mb-4">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Playing instruments</div>
+                            </div>
+                            <div class="progress w-100">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Anime</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- Footer Start -->
+            <div class="container py-4 bg-secondary text-center">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold">Ipt Final Project</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold">Clint Vincent Taghap</a>
+                </p>
+            </div>
+            <!-- Footer End -->
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+* CONTACTPAGE
+contact.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ipt Final Project</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
+                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg" alt="Image">
+                <h1 class="font-weight-bold">Clint Vincent Taghap</h1>
+                <p class="mb-4">
+                    Bsit2e
+                </p>
+                <div class="d-flex justify-content-center mb-5">
+                    <a class="btn btn-outline-primary mr-2" href="https://www.facebook.com/ClintVincent.Taghap.01/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
+                <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+            </div>
+        </div>
+        <div class="content">
+            <!-- Navbar Start -->
+            <div class="container p-0">
+                <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                    <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Navbar End -->
+
+            <!-- Page Header Start -->
+            <div class="container py-5 px-2 bg-primary">
+                <div class="row py-5 px-4">
+                    <div class="col-sm-6 text-center text-md-left">
+                        <h1 class="mb-3 mb-md-0 text-white text-uppercase font-weight-bold">Contact Me</h1>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Page Header End -->
+
+
+            <!-- Contact Start -->
+            <div class="container bg-white pt-5">
+                <div class="row px-3 pb-2">
+                    <div class="col-sm-4 text-center mb-3">
+                        <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
+                        <h4 class="font-weight-bold">Address</h4>
+                        <p>1Blk 21 Lot 3 Southville 8c Rodriguez Rizal</p>
+                    </div>
+                    <div class="col-sm-4 text-center mb-3">
+                        <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
+                        <h4 class="font-weight-bold">Phone</h4>
+                        <p>0951 012 2506</p>
+                    </div>
+                    <div class="col-sm-4 text-center mb-3">
+                        <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
+                        <h4 class="font-weight-bold">Email</h4>
+                        <p>cvtaghap1019@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-12 pb-5">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="8" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
+
+
+            <!-- Footer Start -->
+            <div class="container py-4 bg-secondary text-center">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold">Ipt Final Project.</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold">Clint Vincent Taghap</a>
+                </p>
+            </div>
+            <!-- Footer End -->
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+* 2ND ACTIVITY CODE
+Untitled-1.html
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<div style="background-image:url('design.jpg');background-position: 100% 100%; 
+background-repeat: no-repeat;background-attachment: fixed; 
+  background-size: cover;"> 
+</head> 
+<body> 
+<center> 
+ <h1 border-style: solid; border-color: olivedrab;>MY SECOND ACTIVITY </h1> 
+<hr>  
+<p> Good day! let's try <b> THE HTML PRACTICE </b> </p> 
+<hr>  
+<h3 style="color:greenyellow;"><u>Facebook</u></h3>  
+<p style="color: greenyellow;"> Ang facebook ay madalas kong gamitin para sa pakikipag komunikasyon o pakiki enterak sa mga tao , kapamilya , kaibigan o <br> 
+     kahit hindi mo man kilala sa malalayong lugar. halos lahat ng mga mamayang pilipino gayun ding ang mga taga ibang bansa ay gumagamit din neto.<br> 
+     nakaka entertain o nakapag papasaya ng mga tao din ang facebook dahil pwede ka dito magpost ng kuyng anong gusto mo o kaylan mo ito gugustuhin.<br> 
+    kaya para saakin , eto ang una kong napili.<br> 
+ </p> 
+ 
+<h3 style="color: pink;"><u>Youtube</u></h3>  
+<p style="color:pink;"> Isa din ito sa mga lagi kong ginagamit dahil isa rin ang youtube para makaentertain dahil sa mga video na iniuupload<br> 
+    ng mga tao. bukod dito marami ka rin matututunan dahil maraming mga tutorial, tulad ko , ginagamit ito sa mga tutorial ng mga instrumento <br> 
+    gaya ng gitara sa pagawa ng kanta o pagcocover nito. ginagamit ko rin ang youtube dahil minsan nakikinig ako sa mga kanta. <br> 
+</p> 
+ 
+<h3 style="color:blueviolet;"><u>AnimeKisa</u></h3>  
+<p style="color:blueviolet;">Ang AnimeKisa ay isa sa paborito kong website dahil mahilig akong manood ng mga anime. halos buo o kalahating oras ginugugol <br> 
+    ko sa panonood ng mga anime dahil dito ibat-ibang emosyon o reaksyon ang aking nararamdaman. karamihan ng mga pilipino ay nahuhumaling sa panonood <br> 
+    ng anime. bukod dito ang anime ay may ibat-ibang genre gaya ng drama, comedy, horror, at iba pa. <br> 
+</p> 
+ 
+<h3 style="color:goldenrod;"><u>Google</u></h3>  
+<p style="color:goldenrod;">Ang google naman ay isa sa mga kilala o usong website sapagkat lagi itong ginagamit mng mga tao sa bawat mundo, <br> 
+    ginagamit ito ng pananaliksik o pagsesearch kumbaga pwede mo dito hanapin ang kahit anong website gaya ng youtube facebook at iba pa.<br> 
+    pwede rin magsearch dito ng mga activity o assignment at mga lesson , marami kang matututunan.<br>  
+</p> 
+ 
+<h3 style="color:red;"><u>Softlay</u></h3>  
+<p style="color:red;"> ang Pinakahuling pinili ko ay softlay, ginagamit ko itong website na ito dahil nakapaloob dto ang mga <br> 
+    napakaraming application at mga operating system na madodownload lang ng libre, gaya ng mga windows operating sytem,  <br> 
+    microsft office , chrome o edge installer at marami pang iba.<br> 
+</p> 
+ 
+<table table border="1px solid" style="width:50%"> 
+<tr>  
+ <th rowspan="6">BROWSER</th> 
+ <th colspan="2" style="text-align:center" >APPLICATIONS</th> 
+<th style="text-align:center" >WEBSITES</th> 
+<th style="text-align:center" >LINK</th> 
+</tr> 
+  
+</tr> 
+</tr> 
+<tr>  
+ <td>Chrome</td> 
+ <td>Edge</td> 
+ <td>Facebook</td> 
+ <td><a href="https://www.facebook.com" target="_blank">www.facebook.com</a></td> 
+       
+ 
+       
+ 
+</tr> 
+<tr>  
+ <td>Chrome</td> 
+ <td>Edge</td> 
+ <td>Youtube</td> 
+ <td><a href=" https://www.youtube.com" target="_blank">www.youtube.com</a></td> 
+  
+  
+</tr> 
+<tr>  
+ <td>Chrome</td> 
+ <td>Edge</td> 
+ <td>AnimeKisa</td> 
+ <td><a href="https://animekisa.tv/" target="_blank">www.animekisa.tv</a></td> 
+ 
+ 
+  
+</tr> 
+<tr>  
+ <td>Chrome</td> 
+ <td>Edge</td> 
+ <td>Google</td> 
+ <td><a href=" https://www.google.com" target="_blank">www.google.com</a></td> 
+  
+ 
+</tr> 
+<tr>  
+ <td>Chrome</td> 
+ <td>Edge</td> 
+ <td>Softlay</td> 
+ <td><a href="https://www.softlay.com/ " target="_blank">www.softlay.com</a></td> 
+ 
+</tr> 
+</table> 
+</div> 
+</center> 
+</body> 
+</html>
+
+
+* 3RD ACTIVITY CODE
+Untitled-1.html
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <style>
+    body {
+      background-image: url('design.jpg');
+      background-attachment: fixed;
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+        
+  form{
+       position: relative;
+      top:50px;
+      left:100px;
+      }
+    h1{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      }
+    h4{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      position: relative;
+      top:-70px;
+       left:100px;
+          }
+   h2{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      }   
+    img {
+      border-radius: 20%;
+    }
+</style>
+</head> 
+<body> 
+<center> 
+ <h1 border-style: solid; border-color: olivedrab;>MY THIRD ACTIVITY </h1> 
+<hr> 
+<p> Good day! let's try <b> THE HTML PRACTICE </b> </p> 
+<hr>  
+<h3 style="color:greenyellow;"><u>Facebook</u></h3>  
+<a href="https://www.facebook.com"><img src="fa.jpg" style="width:210px;height:210px;"></a>
+<p> <mark>Ang facebook ay madalas kong gamitin para sa pakikipag komunikasyon o pakiki enterak sa mga tao , kapamilya , kaibigan o <br> 
+     kahit hindi mo man kilala sa malalayong lugar. halos lahat ng mga mamayang pilipino gayun ding ang mga taga ibang bansa ay gumagamit din neto.<br> 
+     nakaka entertain o nakapag papasaya ng mga tao din ang facebook dahil pwede ka dito magpost ng kuyng anong gusto mo o kaylan mo ito gugustuhin.<br> 
+    kaya para saakin , eto ang una kong napili.<br> </mark>
+ </p> 
+ 
+<h3 style="color: pink;"><u>Youtube</u></h3>  
+<a href=" https://www.youtube.com"><img src="y.png" style="width:210px;height:210px;"></a> 
+<p><mark>Isa din ito sa mga lagi kong ginagamit dahil isa rin ang youtube para makaentertain dahil sa mga video na iniuupload<br> 
+    ng mga tao. bukod dito marami ka rin matututunan dahil maraming mga tutorial, tulad ko , ginagamit ito sa mga tutorial ng mga instrumento <br> 
+    gaya ng gitara sa pagawa ng kanta o pagcocover nito. ginagamit ko rin ang youtube dahil minsan nakikinig ako sa mga kanta. <br> 
+ </mark></p>
+ 
+<h3 style="color:blueviolet;"><u>AnimeKisa</u></h3> 
+<a href="https://animekisa.tv/"><img src="anime.png" style="width:210px;height:210px;"></a>
+<p><mark>Ang AnimeKisa ay isa sa paborito kong website dahil mahilig akong manood ng mga anime. halos buo o kalahating oras ginugugol <br> 
+    ko sa panonood ng mga anime dahil dito ibat-ibang emosyon o reaksyon ang aking nararamdaman. karamihan ng mga pilipino ay nahuhumaling sa panonood <br> 
+    ng anime. bukod dito ang anime ay may ibat-ibang genre gaya ng drama, comedy, horror, at iba pa. <br> 
+ </mark></p>
+ 
+<h3 style="color:goldenrod;"><u>Google</u></h3>  
+<a href=" https://www.google.com"><img src="go.jpg" style="width:210px;height:210px;"></a> 
+<p><mark>Ang google naman ay isa sa mga kilala o usong website sapagkat lagi itong ginagamit mng mga tao sa bawat mundo, <br> 
+    ginagamit ito ng pananaliksik o pagsesearch kumbaga pwede mo dito hanapin ang kahit anong website gaya ng youtube facebook at iba pa.<br> 
+    pwede rin magsearch dito ng mga activity o assignment at mga lesson , marami kang matututunan.<br>  
+</mark></p> 
+ 
+<h3 style="color:red;"><u>Softlay</u></h3>  
+<a href="https://www.softlay.com/ "><img src="soft.jpg" style="width:210px;height:210px;"></a> 
+<p><mark> ang Pinakahuling pinili ko ay softlay, ginagamit ko itong website na ito dahil nakapaloob dto ang mga <br> 
+    napakaraming application at mga operating system na madodownload lang ng libre, gaya ng mga windows operating sytem,  <br> 
+    microsft office , chrome o edge installer at marami pang iba.<br> 
+</mark></p> 
+</center> 
+</body> 
+</html>
+
+
+* 4TH ACTIVITY CODE
+  Untitled-1.html
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <style>
+    body {
+      background-image: url('design.jpg');
+      background-attachment: fixed;
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+        
+  form{
+       position: relative;
+      top:50px;
+      left:100px;
+      }
+    h1{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      }
+    h4{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      position: relative;
+      top:-70px;
+       left:100px;
+          }
+   h2{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      }   
+    img {
+      border-radius: 20%;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body> 
+<center> 
+ <h1 border-style: solid; border-color: olivedrab;>MY FOURTH ACTIVITY </h1> 
+<hr> 
+<p> Good day! let's try <b> THE HTML PRACTICE </b> </p> 
+<hr>  
+<h3 style="color:greenyellow;"><u>Facebook</u></h3>  
+<a href="https://www.facebook.com"><img src="fa.jpg" style="width:210px;height:210px;"></a>
+<p> <mark>Ang facebook ay madalas kong gamitin para sa pakikipag komunikasyon o pakiki enterak sa mga tao , kapamilya , kaibigan o <br> 
+     kahit hindi mo man kilala sa malalayong lugar. halos lahat ng mga mamayang pilipino gayun ding ang mga taga ibang bansa ay gumagamit din neto.<br> 
+     nakaka entertain o nakapag papasaya ng mga tao din ang facebook dahil pwede ka dito magpost ng kuyng anong gusto mo o kaylan mo ito gugustuhin.<br> 
+    kaya para saakin , eto ang una kong napili.<br> </mark>
+ </p> 
+ 
+<h3 style="color: pink;"><u>Youtube</u></h3>  
+<a href=" https://www.youtube.com"><img src="y.png" style="width:210px;height:210px;"></a> 
+<p><mark>Isa din ito sa mga lagi kong ginagamit dahil isa rin ang youtube para makaentertain dahil sa mga video na iniuupload<br> 
+    ng mga tao. bukod dito marami ka rin matututunan dahil maraming mga tutorial, tulad ko , ginagamit ito sa mga tutorial ng mga instrumento <br> 
+    gaya ng gitara sa pagawa ng kanta o pagcocover nito. ginagamit ko rin ang youtube dahil minsan nakikinig ako sa mga kanta. <br> 
+ </mark></p>
+ 
+<h3 style="color:blueviolet;"><u>AnimeKisa</u></h3> 
+<a href="https://animekisa.tv/"><img src="anime.png" style="width:210px;height:210px;"></a>
+<p><mark>Ang AnimeKisa ay isa sa paborito kong website dahil mahilig akong manood ng mga anime. halos buo o kalahating oras ginugugol <br> 
+    ko sa panonood ng mga anime dahil dito ibat-ibang emosyon o reaksyon ang aking nararamdaman. karamihan ng mga pilipino ay nahuhumaling sa panonood <br> 
+    ng anime. bukod dito ang anime ay may ibat-ibang genre gaya ng drama, comedy, horror, at iba pa. <br> 
+ </mark></p>
+ 
+<h3 style="color:goldenrod;"><u>Google</u></h3>  
+<a href=" https://www.google.com"><img src="go.jpg" style="width:210px;height:210px;"></a> 
+<p><mark>Ang google naman ay isa sa mga kilala o usong website sapagkat lagi itong ginagamit mng mga tao sa bawat mundo, <br> 
+    ginagamit ito ng pananaliksik o pagsesearch kumbaga pwede mo dito hanapin ang kahit anong website gaya ng youtube facebook at iba pa.<br> 
+    pwede rin magsearch dito ng mga activity o assignment at mga lesson , marami kang matututunan.<br>  
+</mark></p> 
+ 
+<h3 style="color:red;"><u>Softlay</u></h3>  
+<a href="https://www.softlay.com/ "><img src="soft.jpg" style="width:210px;height:210px;"></a> 
+<p><mark> ang Pinakahuling pinili ko ay softlay, ginagamit ko itong website na ito dahil nakapaloob dto ang mga <br> 
+    napakaraming application at mga operating system na madodownload lang ng libre, gaya ng mga windows operating sytem,  <br> 
+    microsft office , chrome o edge installer at marami pang iba.<br> 
+</mark></p> 
+<button class="btn" onclick="document.location='Untitled-2.html'"><i class="fa fa-home">Home</i></button>
+</center> 
+</body> 
+</html>
+
+
+Untitled-2.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act4</title>
+    <style>
+        body {
+          background-image: url('design.jpg');
+          background-attachment: fixed;
+          background-position: 100% 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+            }
+       .btn {
+          background-color: DodgerBlue;
+           border: none;
+           color: white;
+           padding: 12px 16px;
+           font-size: 16px;
+          cursor: pointer;
+            }
+      .btn:hover {
+           background-color: RoyalBlue;
+            }
+      #img{
+           position: relative;
+           top:-170px;
+          left:-100px;
+           }
+      form{
+           position: relative;
+          top:50px;
+          left:100px;
+          }
+        h1{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }
+        h4{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          position: relative;
+          top:-70px;
+           left:100px;
+              }
+       h2{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }
+       h3{
+            color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }   
+        img {
+          border-radius: 20%;
+              }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> MENU </h1> 
+    </center>
+        <br>
+        <br>
+        <button class="btn" onclick="document.location='Untitled-1.html'"><i class="fa fa-bars"></i></button>&nbsp;&nbsp;
+<h4> I always watching anime and my favorite anime is That Time I Got Reincarnated as a Slime because its awsome.<br>
+i also watch a movie like a hollywood movie because it wasamazing like avendegers infinity war of end game,aside from that,<br>
+i always playing instruments and sometime i make a music cover then upload mon my social accounts. i also like programming, <br> 
+when i am bored, i go to computer and create an website or programs. </h4>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button class="btn" onclick="document.location='Untitled-3.html'"><i class="fa fa-address-card"></i></button>
+<h4>My Name is Clint Vincent Olimpiuan Taghap, 20 years old, born from carmen bohol, Im currently living on Blk 21 lot 3 <br>
+  Southville 8c San Isidro rodriguez rizal. my birthday is Nov 30, 2001 and its holiday which is bonifacio day. and <br>
+  now i am 2nd year at colegio de montalban on rodriguez rizal. I like playing instruments like Gutiar, ukelele, piano, etc.</h4>
+  <center>
+</center>
+</body>
+</html>
+
+
+Untitled-3.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act 4</title>
+    <style>
+      body {
+        background-image: url('design.jpg');
+        background-attachment: fixed;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+     .btn {
+        background-color: DodgerBlue;
+         border: none;
+         color: white;
+         padding: 12px 16px;
+         font-size: 16px;
+        cursor: pointer;
+          }
+    .btn:hover {
+         background-color: RoyalBlue;
+          }
+    #img{
+         position: relative;
+         top:-170px;
+        left:-100px;
+         }
+    form{
+         position: relative;
+        top:50px;
+        left:100px;
+        }
+      h1{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+      h4{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        position: relative;
+        top:-70px;
+         left:100px;
+            }
+     h2{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+     h3{
+          color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }   
+      img {
+        border-radius: 20%;
+            }
+            .col1{
+    border-style: none;
+    color: black;
+    background-color:  rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: left;
+    margin-left: 300px;
+    font-size: 12;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+.col1:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+.col2{
+    border-style: none;
+    color: black;
+    background-color: rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: right;
+    margin-right: 300px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.col2:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> USER INFORMATION </h1> 
+        </center>
+        <br>
+        <br>
+        <h2>_____________CLINT VINCENT O. TAGHAP__________________</h2>
+        <h3>__________________I LIKE PLAYING INSTRUMENTS______________________</h3>
+        <img src="ken.jpg" style="width:210px;height:210px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+        <br>
+        <br> 
+        <br> 
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col1">Place of Birth:</div> 
+            <div class="col2">San Roque II Q.C</div>
+            <br>
+            <br>
+            <div class="col1">Civil Status:</div>
+            <div class="col2">Single</div>
+            <br>
+            <br>
+            <div class="col1">Religion:</div>
+            <div class="col2">Chatholic</div>
+            <br>
+            <br>
+            <div class="col1">Citizenship:</div>
+            <div class="col2">Filipino  </div>
+            <br>
+            <br>
+            <div class="col1">height:</div>
+            <div class="col2">5.10 feet</div>
+            <br>
+            <br>
+            <br>
+            <br>
+            </center>
+            <div>
+              <b>
+                <a class="menu2" href="Menu.html"><img src="menu.png"width=50" height="50"> </a>
+               
+              </b>
+            </div>
+        <br><br><br><br><br><br>
+<button class="btn" onclick="document.location='Untitled-2.html'"><i class="fa fa-bars"></i> Menu</button>&nbsp;&nbsp;
+<h4>My Name is Clint Vincent Olimpiuan Taghap, 20 years old, born from carmen bohol, Im currently living on Blk 21 lot 3 <br>
+  Southville 8c San Isidro rodriguez rizal. my birthday is Nov 30, 2001 and its holiday which is bonifacio day. and <br>
+  now i am 2nd year at colegio de montalban on rodriguez rizal. I like playing instruments like Gutiar, ukelele, piano, etc.</h4>
+</body>
+</html>
+
+
+* 5TH ACTIVITY CODE
+Untitled-1.html
+
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <style>
+    body {
+      background-image: url('design.jpg');
+      background-attachment: fixed;
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+        
+  form{
+       position: relative;
+      top:50px;
+      left:100px;
+      }
+    h1{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      }
+    h4{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      position: relative;
+      top:-70px;
+       left:100px;
+          }
+   h2{
+      color: white;
+      border-style: solid;
+      border-color: olivedrab;
+      background-color: rgb(81, 121, 107);
+      }   
+    img {
+      border-radius: 20%;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body> 
+<center> 
+ <h1 border-style: solid; border-color: olivedrab;>MY FIFTH ACTIVITY </h1> 
+<hr> 
+<p> Good day! let's try <b> THE HTML PRACTICE </b> </p> 
+<hr>  
+<h3 style="color:greenyellow;"><u>Facebook</u></h3>  
+<a href="https://www.facebook.com"><img src="fa.jpg" style="width:210px;height:210px;"></a>
+<p> <mark>Ang facebook ay madalas kong gamitin para sa pakikipag komunikasyon o pakiki enterak sa mga tao , kapamilya , kaibigan o <br> 
+     kahit hindi mo man kilala sa malalayong lugar. halos lahat ng mga mamayang pilipino gayun ding ang mga taga ibang bansa ay gumagamit din neto.<br> 
+     nakaka entertain o nakapag papasaya ng mga tao din ang facebook dahil pwede ka dito magpost ng kuyng anong gusto mo o kaylan mo ito gugustuhin.<br> 
+    kaya para saakin , eto ang una kong napili.<br> </mark>
+ </p> 
+ 
+<h3 style="color: pink;"><u>Youtube</u></h3>  
+<a href=" https://www.youtube.com"><img src="y.png" style="width:210px;height:210px;"></a> 
+<p><mark>Isa din ito sa mga lagi kong ginagamit dahil isa rin ang youtube para makaentertain dahil sa mga video na iniuupload<br> 
+    ng mga tao. bukod dito marami ka rin matututunan dahil maraming mga tutorial, tulad ko , ginagamit ito sa mga tutorial ng mga instrumento <br> 
+    gaya ng gitara sa pagawa ng kanta o pagcocover nito. ginagamit ko rin ang youtube dahil minsan nakikinig ako sa mga kanta. <br> 
+ </mark></p>
+ 
+<h3 style="color:blueviolet;"><u>AnimeKisa</u></h3> 
+<a href="https://animekisa.tv/"><img src="anime.png" style="width:210px;height:210px;"></a>
+<p><mark>Ang AnimeKisa ay isa sa paborito kong website dahil mahilig akong manood ng mga anime. halos buo o kalahating oras ginugugol <br> 
+    ko sa panonood ng mga anime dahil dito ibat-ibang emosyon o reaksyon ang aking nararamdaman. karamihan ng mga pilipino ay nahuhumaling sa panonood <br> 
+    ng anime. bukod dito ang anime ay may ibat-ibang genre gaya ng drama, comedy, horror, at iba pa. <br> 
+ </mark></p>
+ 
+<h3 style="color:goldenrod;"><u>Google</u></h3>  
+<a href=" https://www.google.com"><img src="go.jpg" style="width:210px;height:210px;"></a> 
+<p><mark>Ang google naman ay isa sa mga kilala o usong website sapagkat lagi itong ginagamit mng mga tao sa bawat mundo, <br> 
+    ginagamit ito ng pananaliksik o pagsesearch kumbaga pwede mo dito hanapin ang kahit anong website gaya ng youtube facebook at iba pa.<br> 
+    pwede rin magsearch dito ng mga activity o assignment at mga lesson , marami kang matututunan.<br>  
+</mark></p> 
+ 
+<h3 style="color:red;"><u>Softlay</u></h3>  
+<a href="https://www.softlay.com/ "><img src="soft.jpg" style="width:210px;height:210px;"></a> 
+<p><mark> ang Pinakahuling pinili ko ay softlay, ginagamit ko itong website na ito dahil nakapaloob dto ang mga <br> 
+    napakaraming application at mga operating system na madodownload lang ng libre, gaya ng mga windows operating sytem,  <br> 
+    microsft office , chrome o edge installer at marami pang iba.<br> 
+</mark></p> 
+<button class="btn" onclick="document.location='Untitled-2.html'"><i class="fa fa-home">Home</i></button>
+</center> 
+</body> 
+</html>
+
+
+Untitled-2.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act4</title>
+    <style>
+        body {
+          background-image: url('design.jpg');
+          background-attachment: fixed;
+          background-position: 100% 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+            }
+       .btn {
+          background-color: DodgerBlue;
+           border: none;
+           color: white;
+           padding: 12px 16px;
+           font-size: 16px;
+          cursor: pointer;
+            }
+      .btn:hover {
+           background-color: RoyalBlue;
+            }
+      #img{
+           position: relative;
+           top:-170px;
+          left:-100px;
+           }
+      form{
+           position: relative;
+          top:50px;
+          left:100px;
+          }
+        h1{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }
+        h4{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          position: relative;
+          top:-70px;
+           left:100px;
+              }
+       h2{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }
+       h3{
+            color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }   
+        img {
+          border-radius: 20%;
+              }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> MENU </h1> 
+    </center>
+        <br>
+        <br>
+        <button class="btn" onclick="document.location='Untitled-1.html'"><i class="fa fa-bars"></i></button>&nbsp;&nbsp;
+<h4> I always watching anime and my favorite anime is That Time I Got Reincarnated as a Slime because its awsome.<br>
+i also watch a movie like a hollywood movie because it wasamazing like avendegers infinity war of end game,aside from that,<br>
+i always playing instruments and sometime i make a music cover then upload mon my social accounts. i also like programming, <br> 
+when i am bored, i go to computer and create an website or programs. </h4>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button class="btn" onclick="document.location='Untitled-3.html'"><i class="fa fa-address-card"></i></button>
+<h4>My Name is Clint Vincent Olimpiuan Taghap, 20 years old, born from carmen bohol, Im currently living on Blk 21 lot 3 <br>
+  Southville 8c San Isidro rodriguez rizal. my birthday is Nov 30, 2001 and its holiday which is bonifacio day. and <br>
+  now i am 2nd year at colegio de montalban on rodriguez rizal. I like playing instruments like Gutiar, ukelele, piano, etc.</h4>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button class="btn" onclick="document.location='Untitled-4.html'"><i class="fa fa-address-card"></i></button>
+<h4> we are taghap family, i have 2 siblings , the name is rose ann taghap and the other one is alexis jerome taghap,<br>
+the name of our mother is melodina taghap ang name of our father is alexander taghap, other than that we have an animals<br>
+in our house, 2 cats and 1 dog.<br>
+  <center> 
+</center>
+</body>
+</html>
+
+
+Untitled-3.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act 4</title>
+    <style>
+      body {
+        background-image: url('design.jpg');
+        background-attachment: fixed;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+     .btn {
+        background-color: DodgerBlue;
+         border: none;
+         color: white;
+         padding: 12px 16px;
+         font-size: 16px;
+        cursor: pointer;
+          }
+    .btn:hover {
+         background-color: RoyalBlue;
+          }
+    #img{
+         position: relative;
+         top:-170px;
+        left:-100px;
+         }
+    form{
+         position: relative;
+        top:50px;
+        left:100px;
+        }
+      h1{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+      h4{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        position: relative;
+        top:-70px;
+         left:100px;
+            }
+     h2{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+     h3{
+          color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }   
+      img {
+        border-radius: 20%;
+            }
+            .col1{
+    border-style: none;
+    color: black;
+    background-color:  rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: left;
+    margin-left: 300px;
+    font-size: 12;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+.col1:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+.col2{
+    border-style: none;
+    color: black;
+    background-color: rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: right;
+    margin-right: 300px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.col2:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> USER INFORMATION </h1> 
+        </center>
+        <br>
+        <br>
+        <h2>_____________CLINT VINCENT O. TAGHAP__________________</h2>
+        <h3>__________________I LIKE PLAYING INSTRUMENTS______________________</h3>
+        <img src="ken.jpg" style="width:210px;height:210px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+        <br>
+        <br> 
+        <br> 
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col1">Place of Birth:</div> 
+            <div class="col2">San Roque II Q.C</div>
+            <br>
+            <br>
+            <div class="col1">Civil Status:</div>
+            <div class="col2">Single</div>
+            <br>
+            <br>
+            <div class="col1">Religion:</div>
+            <div class="col2">Chatholic</div>
+            <br>
+            <br>
+            <div class="col1">Citizenship:</div>
+            <div class="col2">Filipino  </div>
+            <br>
+            <br>
+            <div class="col1">height:</div>
+            <div class="col2">5.10 feet</div>
+            <br>
+            <br>
+            <br>
+            <br>
+            </center>
+            <div>
+
+            </div>
+        <br><br><br><br><br><br>
+<button class="btn" onclick="document.location='Untitled-2.html'"><i class="fa fa-bars"></i> Menu</button>&nbsp;&nbsp;
+<h4>My Name is Clint Vincent Olimpiuan Taghap, 20 years old, born from carmen bohol, Im currently living on Blk 21 lot 3 <br>
+  Southville 8c San Isidro rodriguez rizal. my birthday is Nov 30, 2001 and its holiday which is bonifacio day. and <br>
+  now i am 2nd year at colegio de montalban on rodriguez rizal. I like playing instruments like Gutiar, ukelele, piano, etc.</h4>
+</body>
+</html>
+
+
+Untitled-4.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Act5</title>
+    <style>
+        body {
+          background-image: url('design.jpg');
+          background-attachment: fixed;
+          background-position: 100% 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+            }
+       .btn {
+          background-color: DodgerBlue;
+           border: none;
+           color: white;
+           padding: 12px 16px;
+           font-size: 16px;
+          cursor: pointer;
+            }
+      .btn:hover {
+           background-color: RoyalBlue;
+            }
+      #img{
+           position: relative;
+           top:0px;
+          left:-100px;
+           }
+      form{
+           position: relative;
+          top:50px;
+          left:100px;
+          }
+        h1{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }
+        h4{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          position: relative;
+          top:0px;
+           left:20px;
+              }
+       h2{
+          color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }
+       h3{
+            color: white;
+          border-style: solid;
+          border-color: olivedrab;
+          background-color: rgb(81, 121, 107);
+          }   
+        img {
+          border-radius: 20%;
+              }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> My Family </h1> 
+    </center>
+        <h4>
+            <img src="ken.jpg" style="width:90px;height:90px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+            Name: Clint Vincent O. Taghap<br>
+            Age: 20 Yrs old<br>
+            Address: Blk 21 lot 3 southville 8c<br>
+            School: Colegio de montalban<br>
+            status: in a relationship<br>
+            religion: catholic<br>
+             <br>
+            <center>
+            <button class="btn" onclick="document.location='1.html'"><i class="fa fa-bars"></i> See more</button>
+        </center>
+        </h4>
+        <h4>
+            <img src="2.jpg" style="width:90px;height:90px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+            Name: Rose ann O. Taghap<br>
+            Age: 18 Yrs old<br>
+            Address: Blk 21 lot 3 southville 8c<br>
+            School: Asian Institute of computer studies<br>
+            status: single<br>
+            religion: catholic<br>
+            <br>
+            <center>
+            <button class="btn" onclick="document.location='2.html'"><i class="fa fa-bars"></i> See more</button>
+        </center>
+        </h4>
+        <h4>
+            <img src="3.jpg" style="width:90px;height:90px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+            Name: Alexis Jerome O. Taghap<br>
+            Age: 10 Yrs old<br>
+            Address: Blk 21 lot 3 southville 8c<br>
+            School: Southville 8c elementary school<br>
+            status: single<br>
+            religion: catholic<br>
+            <br>
+            <center>
+            <button class="btn" onclick="document.location='3.html'"><i class="fa fa-bars"></i> See more</button>
+        </center>
+        </h4>
+        <h4>
+            <img src="4.jpg" style="width:90px;height:90px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+            Name: Melodina O. Taghap<br>
+            Age: 42 Yrs old<br>
+            Address: Blk 21 lot 3 southville 8c<br>
+            Occupation: Housewife<br>
+            status: Married<br>
+            religion: catholic<br>
+            <br>
+            <center>
+            <button class="btn" onclick="document.location='4.html'"><i class="fa fa-bars"></i> See more</button>
+        </center>
+        </h4>
+        <h4>
+            <img src="5.jpg" style="width:90px;height:90px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+            Name: Alexander O. Taghap<br>
+            Age: 42 Yrs old<br>
+            Address: Blk 21 lot 3 southville 8c<br>
+            Occupation: Electrician<br>
+            status: Married<br>
+            religion: catholic<br>
+            <br>
+            <center>
+            <button class="btn" onclick="document.location='5.html'"><i class="fa fa-bars"></i> See more</button>
+        </center>
+        </h4>
+        <center>
+        <button class="btn" onclick="document.location='Untitled-2.html'"><i class="fa fa-bars"></i> HOME</button>
+    </center>
+    </body>
+</html>
+
+
+1.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act 4</title>
+    <style>
+      body {
+        background-image: url('design.jpg');
+        background-attachment: fixed;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+     .btn {
+        background-color: DodgerBlue;
+         border: none;
+         color: white;
+         padding: 12px 16px;
+         font-size: 16px;
+        cursor: pointer;
+          }
+    .btn:hover {
+         background-color: RoyalBlue;
+          }
+    #img{
+         position: relative;
+         top:-170px;
+        left:-100px;
+         }
+    form{
+         position: relative;
+        top:50px;
+        left:100px;
+        }
+      h1{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+      h4{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        position: relative;
+        top:-70px;
+         left:100px;
+            }
+     h2{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+     h3{
+          color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }   
+      img {
+        border-radius: 20%;
+            }
+            .col1{
+    border-style: none;
+    color: black;
+    background-color:  rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: left;
+    margin-left: 300px;
+    font-size: 12;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+.col1:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+.col2{
+    border-style: none;
+    color: black;
+    background-color: rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: right;
+    margin-right: 300px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.col2:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> USER INFORMATION </h1> 
+        </center>
+        <br>
+        <br>
+        <h2>_____________CLINT VINCENT O. TAGHAP__________________</h2>
+        <h3>__________________I LIKE PLAYING INSTRUMENTS______________________</h3>
+        <img src="ken.jpg" style="width:210px;height:210px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+        <br>
+        <br> 
+        <br> 
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col1">Place of Birth:</div> 
+            <div class="col2">Carmen bohol</div>
+            <br>
+            <br>
+            <div class="col1">Civil Status:</div>
+            <div class="col2">Single</div>
+            <br>
+            <br>
+            <div class="col1">Religion:</div>
+            <div class="col2">Chatholic</div>
+            <br>
+            <br>
+            <div class="col1">Citizenship:</div>
+            <div class="col2">Filipino  </div>
+            <br>
+            <br>
+            <div class="col1">height:</div>
+            <div class="col2">5.9feet</div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <div>
+
+            </div>
+        <br><br><br><br><br><br>
+        <center>
+<button class="btn" onclick="document.location='Untitled-4.html'"><i class="fa fa-bars"></i></button>&nbsp;&nbsp;
+</center>
+</body>
+</html>
+
+
+2.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act 4</title>
+    <style>
+      body {
+        background-image: url('design.jpg');
+        background-attachment: fixed;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+     .btn {
+        background-color: DodgerBlue;
+         border: none;
+         color: white;
+         padding: 12px 16px;
+         font-size: 16px;
+        cursor: pointer;
+          }
+    .btn:hover {
+         background-color: RoyalBlue;
+          }
+    #img{
+         position: relative;
+         top:-170px;
+        left:-100px;
+         }
+    form{
+         position: relative;
+        top:50px;
+        left:100px;
+        }
+      h1{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+      h4{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        position: relative;
+        top:-70px;
+         left:100px;
+            }
+     h2{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+     h3{
+          color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }   
+      img {
+        border-radius: 20%;
+            }
+            .col1{
+    border-style: none;
+    color: black;
+    background-color:  rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: left;
+    margin-left: 300px;
+    font-size: 12;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+.col1:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+.col2{
+    border-style: none;
+    color: black;
+    background-color: rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: right;
+    margin-right: 300px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.col2:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> USER INFORMATION </h1> 
+        </center>
+        <br>
+        <br>
+        <h2>_____________ ROSE ANN O. TAGHAP__________________</h2>
+        <h3>__________________TIKTOKER______________________</h3>
+        <img src="2.jpg" style="width:210px;height:210px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+        <br>
+        <br> 
+        <br> 
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col1">Place of Birth:</div> 
+            <div class="col2">San Roque II Q.C</div>
+            <br>
+            <br>
+            <div class="col1">Civil Status:</div>
+            <div class="col2">Single</div>
+            <br>
+            <br>
+            <div class="col1">Religion:</div>
+            <div class="col2">Chatholic</div>
+            <br>
+            <br>
+            <div class="col1">Citizenship:</div>
+            <div class="col2">Filipino  </div>
+            <br>
+            <br>
+            <div class="col1">height:</div>
+            <div class="col2">5.5 feet</div>
+            <br>
+            <br>
+            <br>
+            <br>
+           
+            <div>
+
+            </div>
+        <br><br><br><br><br><br>
+        <center>
+<button class="btn" onclick="document.location='Untitled-4.html'"><i class="fa fa-bars"></i></button>&nbsp;&nbsp;
+ </center>
+</body>
+</html>
+
+
+3.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act 4</title>
+    <style>
+      body {
+        background-image: url('design.jpg');
+        background-attachment: fixed;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+     .btn {
+        background-color: DodgerBlue;
+         border: none;
+         color: white;
+         padding: 12px 16px;
+         font-size: 16px;
+        cursor: pointer;
+          }
+    .btn:hover {
+         background-color: RoyalBlue;
+          }
+    #img{
+         position: relative;
+         top:-170px;
+        left:-100px;
+         }
+    form{
+         position: relative;
+        top:50px;
+        left:100px;
+        }
+      h1{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+      h4{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        position: relative;
+        top:-70px;
+         left:100px;
+            }
+     h2{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+     h3{
+          color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }   
+      img {
+        border-radius: 20%;
+            }
+            .col1{
+    border-style: none;
+    color: black;
+    background-color:  rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: left;
+    margin-left: 300px;
+    font-size: 12;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+.col1:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+.col2{
+    border-style: none;
+    color: black;
+    background-color: rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: right;
+    margin-right: 300px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.col2:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> USER INFORMATION </h1> 
+        </center>
+        <br>
+        <br>
+        <h2>_____________ALEXIS JEROME O. TAGHAP__________________</h2>
+        <h3>__________________ML PLAYER______________________</h3>
+        <img src="3.jpg" style="width:210px;height:210px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+        <br>
+        <br> 
+        <br> 
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col1">Place of Birth:</div> 
+            <div class="col2">Rodrigues Rizal</div>
+            <br>
+            <br>
+            <div class="col1">Civil Status:</div>
+            <div class="col2">Single</div>
+            <br>
+            <br>
+            <div class="col1">Religion:</div>
+            <div class="col2">Chatholic</div>
+            <br>
+            <br>
+            <div class="col1">Citizenship:</div>
+            <div class="col2">Filipino  </div>
+            <br>
+            <br>
+            <div class="col1">height:</div>
+            <div class="col2">4.6 feet</div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <div>
+
+            </div>
+        <br><br><br><br><br><br>
+        <center>
+<button class="btn" onclick="document.location='Untitled-4.html'"><i class="fa fa-bars"></i></button>&nbsp;&nbsp;
+</center>
+</body>
+</html>
+
+
+4.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act 4</title>
+    <style>
+      body {
+        background-image: url('design.jpg');
+        background-attachment: fixed;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+     .btn {
+        background-color: DodgerBlue;
+         border: none;
+         color: white;
+         padding: 12px 16px;
+         font-size: 16px;
+        cursor: pointer;
+          }
+    .btn:hover {
+         background-color: RoyalBlue;
+          }
+    #img{
+         position: relative;
+         top:-170px;
+        left:-100px;
+         }
+    form{
+         position: relative;
+        top:50px;
+        left:100px;
+        }
+      h1{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+      h4{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        position: relative;
+        top:-70px;
+         left:100px;
+            }
+     h2{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+     h3{
+          color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }   
+      img {
+        border-radius: 20%;
+            }
+            .col1{
+    border-style: none;
+    color: black;
+    background-color:  rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: left;
+    margin-left: 300px;
+    font-size: 12;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+.col1:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+.col2{
+    border-style: none;
+    color: black;
+    background-color: rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: right;
+    margin-right: 300px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.col2:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> USER INFORMATION </h1> 
+        </center>
+        <br>
+        <br>
+        <h2>_____________MELODINA O. TAGHAP__________________</h2>
+        <h3>__________________KDRAMA WATCHER______________________</h3>
+        <img src="4.jpg" style="width:210px;height:210px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+        <br>
+        <br> 
+        <br> 
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col1">Place of Birth:</div> 
+            <div class="col2">carmen bohol</div>
+            <br>
+            <br>
+            <div class="col1">Civil Status:</div>
+            <div class="col2">Married</div>
+            <br>
+            <br>
+            <div class="col1">Religion:</div>
+            <div class="col2">Chatholic</div>
+            <br>
+            <br>
+            <div class="col1">Citizenship:</div>
+            <div class="col2">Filipino  </div>
+            <br>
+            <br>
+            <div class="col1">height:</div>
+            <div class="col2">4.8 feet</div>
+            <br>
+            <br>
+            <br>
+            <br>
+          
+            <div>
+
+            </div>
+        <br><br><br><br><br><br>
+        <center>
+<button class="btn" onclick="document.location='Untitled-4.html'"><i class="fa fa-bars"></i></button>&nbsp;&nbsp;
+</center>
+</body>
+</html>
+
+
+5.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act 4</title>
+    <style>
+      body {
+        background-image: url('design.jpg');
+        background-attachment: fixed;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+     .btn {
+        background-color: DodgerBlue;
+         border: none;
+         color: white;
+         padding: 12px 16px;
+         font-size: 16px;
+        cursor: pointer;
+          }
+    .btn:hover {
+         background-color: RoyalBlue;
+          }
+    #img{
+         position: relative;
+         top:-170px;
+        left:-100px;
+         }
+    form{
+         position: relative;
+        top:50px;
+        left:100px;
+        }
+      h1{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+      h4{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        position: relative;
+        top:-70px;
+         left:100px;
+            }
+     h2{
+        color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }
+     h3{
+          color: white;
+        border-style: solid;
+        border-color: olivedrab;
+        background-color: rgb(81, 121, 107);
+        }   
+      img {
+        border-radius: 20%;
+            }
+            .col1{
+    border-style: none;
+    color: black;
+    background-color:  rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: left;
+    margin-left: 300px;
+    font-size: 12;
+    border-radius: 4px;
+    opacity: 0.8;
+    text-align: center;
+}
+.col1:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+.col2{
+    border-style: none;
+    color: black;
+    background-color: rgb(219, 214, 214);
+    position: relative;
+    width: 23.33%;
+    float: right;
+    margin-right: 300px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.col2:hover{
+    background-color: aquamarine; transform: scale(1);
+    border-radius: 10px;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center>
+        <h1> USER INFORMATION </h1> 
+        </center>
+        <br>
+        <br>
+        <h2>_____________ALEXANDER O. TAGHAP__________________</h2>
+        <h3>__________________BUSINESS MAN______________________</h3>
+        <img src="5.jpg" style="width:210px;height:210px;border-style: solid;border-color: olivedrab; float:right" id="img"> 
+        <br>
+        <br> 
+        <br> 
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col1">Place of Birth:</div> 
+            <div class="col2">Carmen bohol</div>
+            <br>
+            <br>
+            <div class="col1">Civil Status:</div>
+            <div class="col2">married</div>
+            <br>
+            <br>
+            <div class="col1">Religion:</div>
+            <div class="col2">Chatholic</div>
+            <br>
+            <br>
+            <div class="col1">Citizenship:</div>
+            <div class="col2">Filipino  </div>
+            <br>
+            <br>
+            <div class="col1">height:</div>
+            <div class="col2">6.10 feet</div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <div>
+
+            </div>
+        <br><br><br><br><br><br>
+        <center>
+<button class="btn" onclick="document.location='Untitled-4.html'"><i class="fa fa-bars"></i></button>&nbsp;&nbsp;
+</center>
+</body>
+</html>
+
+
+
+
+
+* END OF CODINGS
